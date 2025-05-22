@@ -4,7 +4,8 @@
   "main": "index.js",
   "scripts": {
     "build": "npx eleventy",
-    "serve": "npx eleventy --serve"
+    "serve": "npx eleventy --serve",
+    "build-ghpages": "npx @11ty/eleventy --pathprefix=/my-ai-guides/"
   },
   "keywords": [],
   "author": "",
